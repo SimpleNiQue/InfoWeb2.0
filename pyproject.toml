@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "infoweb2-0"
+version = "0.1.0"
+description = ""
+authors = ["SimpleNiQue <simplenick01@gmail.com>"]
+readme = "README.md"
+packages = [{include = "infoweb2"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.1.7"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^3.13.0"
+django-redis = "^5.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
