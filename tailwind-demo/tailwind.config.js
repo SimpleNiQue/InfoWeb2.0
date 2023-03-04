@@ -7,7 +7,8 @@ module.exports = {
         "nick-bg": "#15074e",
         "my-white": "ffffff",
         "less-purple": "#372583",
-        "sly-blue": "DAE8FC"
+        "sly-blue": "F9F9FC",
+       
       }
     },
   },
